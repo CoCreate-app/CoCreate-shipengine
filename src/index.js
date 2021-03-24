@@ -1,3 +1,5 @@
+import api from '../../../CoCreate-components/CoCreate-api/src'
+import {socket, crud} from '../../../CoCreateJS/src';
 
 const CoCreateShipEngine = {
     id: 'shipengine',
@@ -19,30 +21,30 @@ const CoCreateShipEngine = {
 
     action_createShipment: function (element, data) {
         let container = element.closest("form");
-        let shippingdata = CoCreateApi.getFormData('shipengine', 'createShipment', container);
+        let shippingdata = CoCreate.api.getFormData('shipengine', 'createShipment', container);
         console.log(shippingdata);
-        CoCreateApi.send('shipengine', 'createShipment', shippingdata);
+        CoCreate.api.send('shipengine', 'createShipment', shippingdata);
     },
 
     action_getPrice: function (element, data) {
         let container = element.closest("form");
-        let shippingdata = CoCreateApi.getFormData('shipengine', 'getPrice', container);
+        let shippingdata = CoCreate.api.getFormData('shipengine', 'getPrice', container);
         console.log(shippingdata);
-        CoCreateApi.send('shipengine', 'getPrice', shippingdata);
+        CoCreate.api.send('shipengine', 'getPrice', shippingdata);
     },
 
     action_createLabel: function (element, data) {
         let container = element.closest("form");
-        let shippingdata = CoCreateApi.getFormData('shipengine', 'createLabel', container);
+        let shippingdata = CoCreate.api.getFormData('shipengine', 'createLabel', container);
         console.log(shippingdata);
-        CoCreateApi.send('shipengine', 'createLabel', shippingdata);
+        CoCreate.api.send('shipengine', 'createLabel', shippingdata);
     },
 
     action_trackPackage: function (element, data) {
         let container = element.closest("form");
-        let shippingdata = CoCreateApi.getFormData('shipengine', 'trackPackage', container);
+        let shippingdata = CoCreate.api.getFormData('shipengine', 'trackPackage', container);
         console.log(shippingdata);
-        CoCreateApi.send('shipengine', 'trackPackage', shippingdata);
+        CoCreate.api.send('shipengine', 'trackPackage', shippingdata);
     }
 }
 
@@ -51,3 +53,5 @@ CoCreate.api.init({
 	name: CoCreateShipEngine.id, 
 	module:	CoCreateShipEngine,
 });
+
+export default CoCreateShipengine;
