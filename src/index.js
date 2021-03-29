@@ -1,4 +1,4 @@
-import api from '../../../CoCreate-components/CoCreate-api/src'
+import api from '@cocreate/api/src'
 import {socket, crud} from '../../../CoCreateJS/src';
 
 const CoCreateShipEngine = {
@@ -49,7 +49,7 @@ const CoCreateShipEngine = {
 }
 
 
-CoCreate.api.init({
+api.init({
 	name: CoCreateShipEngine.id, 
 	module:	CoCreateShipEngine,
 });
