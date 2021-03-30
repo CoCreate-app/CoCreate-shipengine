@@ -1,5 +1,4 @@
-import api from '@cocreate/api/src'
-import crud from '@cocreate/cocreatejs';
+import api from '@cocreate/api'
 
 const CoCreateShipEngine = {
     id: 'shipengine',
