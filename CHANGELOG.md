@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.0.1...v1.0.2) (2021-03-30)
+
+
+### Bug Fixes
+
+* cocreatejs from npm ([727801d](https://github.com/CoCreate-app/CoCreate-shipengine/commit/727801dc47624bbb283dabd41a3c435753548d80))
+
 ## [1.0.1](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.0.0...v1.0.1) (2021-03-29)
 
 
