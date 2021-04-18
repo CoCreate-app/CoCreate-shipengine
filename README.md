@@ -9,7 +9,7 @@ A simple shipengine component in vanilla javascript. Easily configured using HTM
 
 ![CoCreate-shipengine](https://cdn.cocreate.app/docs/CoCreate-shipengine.gif)
 
-## [Docs & Demo](https://cocreate.app/docs/clone)
+## [Docs & Demo](https://cocreate.app/docs/shipengine)
 
 For a complete guide and working demo refer to the [doumentation](https://cocreate.app/docs/shipengine)
 
