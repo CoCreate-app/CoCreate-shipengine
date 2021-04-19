@@ -1,3 +1,11 @@
+## [1.0.4](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.0.3...v1.0.4) (2021-04-19)
+
+
+### Bug Fixes
+
+* ci and build process ([59b3a54](https://github.com/CoCreate-app/CoCreate-shipengine/commit/59b3a54dae24cc134ee5aaad771600087bf0c153))
+* npm publish and cdn deployment ([6eb781b](https://github.com/CoCreate-app/CoCreate-shipengine/commit/6eb781bbb7fb642750dde4823a073c2a52419578))
+
 ## [1.0.3](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.0.2...v1.0.3) (2021-03-30)
 
 
