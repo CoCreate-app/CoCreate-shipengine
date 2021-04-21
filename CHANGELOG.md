@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.0.4...v1.0.5) (2021-04-21)
+
+
+### Bug Fixes
+
+* One package for server and client ([5c1b87c](https://github.com/CoCreate-app/CoCreate-shipengine/commit/5c1b87c2adc703922ab3500ac523c647fa26d793))
+
 ## [1.0.4](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.0.3...v1.0.4) (2021-04-19)
 
 
