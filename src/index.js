@@ -1,56 +1,14 @@
-import api from '@cocreate/api'
-
-const CoCreateShipEngine = {
-    id: 'shipengine',
-    actions: [
-        'getCarriers',
-        'createShipment',
-        'getPrice',
-        'createLabel',
-        'trackPackage',
-    ],
-
-    render_getCarriers: function (data) {
-        console.log(data);
-    },
-
-    render_shipengineGetPrice: function (data) {
-        console.log(data);
-    },
-
-    action_createShipment: function (element, data) {
-        let container = element.closest("form");
-        let shippingdata = CoCreate.api.getFormData('shipengine', 'createShipment', container);
-        console.log(shippingdata);
-        CoCreate.api.send('shipengine', 'createShipment', shippingdata);
-    },
-
-    action_getPrice: function (element, data) {
-        let container = element.closest("form");
-        let shippingdata = CoCreate.api.getFormData('shipengine', 'getPrice', container);
-        console.log(shippingdata);
-        CoCreate.api.send('shipengine', 'getPrice', shippingdata);
-    },
-
-    action_createLabel: function (element, data) {
-        let container = element.closest("form");
-        let shippingdata = CoCreate.api.getFormData('shipengine', 'createLabel', container);
-        console.log(shippingdata);
-        CoCreate.api.send('shipengine', 'createLabel', shippingdata);
-    },
-
-    action_trackPackage: function (element, data) {
-        let container = element.closest("form");
-        let shippingdata = CoCreate.api.getFormData('shipengine', 'trackPackage', container);
-        console.log(shippingdata);
-        CoCreate.api.send('shipengine', 'trackPackage', shippingdata);
-    }
-}
-
-
-api.init({
-	name: CoCreateShipEngine.id, 
-	module:	CoCreateShipEngine,
-});
-
-export default CoCreateShipengine;
+(function (root, factory) {
+    if (typeof define === 'function' && define.amd) {
+        define(["./client"], function(CoCreateShipengine) {
+        	return factory(CoCreateShipengine)
+        });
+    } else if (typeof module === 'object' && module.exports) {
+      const CoCreateShipengine = require("./server.js")
+      module.exports = factory(CoCreateShipengine);
+    } else {
+        root.returnExports = factory(root["./client.js"]);
+  }
+}(typeof self !== 'undefined' ? self : this, function (CoCreateShipengine) {
+  return CoCreateShipengine;
+}));
