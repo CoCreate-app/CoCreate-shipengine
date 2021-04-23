@@ -26,7 +26,7 @@ For a complete guide and working demo refer to the [doumentation](https://cocrea
 ## NPM
 
 ```shell
-$ npm install @cocreate/shipengine
+$ npm i @cocreate/shipengine
 ```
 
 # Table of Contents
