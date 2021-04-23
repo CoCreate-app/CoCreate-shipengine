@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.0.5...v1.0.6) (2021-04-23)
+
+
+### Bug Fixes
+
+* readme and documentation. Removed securitykeys ([cf4a457](https://github.com/CoCreate-app/CoCreate-shipengine/commit/cf4a4576d0630abf4d07d4b045ecd1f6352064eb))
+
 ## [1.0.5](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.0.4...v1.0.5) (2021-04-21)
 
 
