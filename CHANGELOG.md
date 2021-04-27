@@ -1,3 +1,10 @@
+## [1.0.8](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.0.7...v1.0.8) (2021-04-27)
+
+
+### Bug Fixes
+
+* add host in docs ([e9af992](https://github.com/CoCreate-app/CoCreate-shipengine/commit/e9af99238e29fd0afc9f5410a35af653d71625c2))
+
 ## [1.0.7](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.0.6...v1.0.7) (2021-04-27)
 
 
