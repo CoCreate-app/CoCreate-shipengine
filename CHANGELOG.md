@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.0.6...v1.0.7) (2021-04-27)
+
+
+### Bug Fixes
+
+* Update to readme, demo, added cdn scripts ([2b0cbc3](https://github.com/CoCreate-app/CoCreate-shipengine/commit/2b0cbc3590980494d82cf0a942aced05c2da196a))
+
 ## [1.0.6](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.0.5...v1.0.6) (2021-04-23)
 
 
