@@ -10,7 +10,7 @@ module.exports = {
             "path": "./docs/index.html",
             "collection": "files",
             "document_id": "6029a4fee979fb17407e25d1",
-            "key": "html",
+            "key": "src",
             "data":{
                 "name": "shipengine Doc",
                 "domains": ["cocreate.app", "server.cocreate.app", "ws.cocreate.app"],
