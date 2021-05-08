@@ -20,30 +20,30 @@ const CoCreateShipEngine = {
 
     action_createShipment: function (element, data) {
         let container = element.closest("form");
-        let shippingdata = CoCreate.api.getFormData('shipengine', 'createShipment', container);
+        let shippingdata = api.getFormData('shipengine', 'createShipment', container);
         console.log(shippingdata);
-        CoCreate.api.send('shipengine', 'createShipment', shippingdata);
+        api.send('shipengine', 'createShipment', shippingdata);
     },
 
     action_getPrice: function (element, data) {
         let container = element.closest("form");
-        let shippingdata = CoCreate.api.getFormData('shipengine', 'getPrice', container);
+        let shippingdata = api.getFormData('shipengine', 'getPrice', container);
         console.log(shippingdata);
-        CoCreate.api.send('shipengine', 'getPrice', shippingdata);
+        api.send('shipengine', 'getPrice', shippingdata);
     },
 
     action_createLabel: function (element, data) {
         let container = element.closest("form");
-        let shippingdata = CoCreate.api.getFormData('shipengine', 'createLabel', container);
+        let shippingdata = api.getFormData('shipengine', 'createLabel', container);
         console.log(shippingdata);
-        CoCreate.api.send('shipengine', 'createLabel', shippingdata);
+        api.send('shipengine', 'createLabel', shippingdata);
     },
 
     action_trackPackage: function (element, data) {
         let container = element.closest("form");
-        let shippingdata = CoCreate.api.getFormData('shipengine', 'trackPackage', container);
+        let shippingdata = api.getFormData('shipengine', 'trackPackage', container);
         console.log(shippingdata);
-        CoCreate.api.send('shipengine', 'trackPackage', shippingdata);
+        api.send('shipengine', 'trackPackage', shippingdata);
     }
 }
 
@@ -53,4 +53,4 @@ api.init({
 	module:	CoCreateShipEngine,
 });
 
-export default CoCreateShipengine;
+export default CoCreateShipEngine;
