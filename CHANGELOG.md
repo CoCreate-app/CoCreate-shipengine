@@ -1,3 +1,10 @@
+## [1.0.9](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.0.8...v1.0.9) (2021-05-08)
+
+
+### Bug Fixes
+
+* add css auto parse and save to docs. ([6a4e260](https://github.com/CoCreate-app/CoCreate-shipengine/commit/6a4e26004770ad1c024b235c2bf4e9308ea042dc))
+
 ## [1.0.8](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.0.7...v1.0.8) (2021-04-27)
 
 
