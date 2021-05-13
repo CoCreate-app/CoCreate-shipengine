@@ -36,16 +36,16 @@ class CoCreateShipengine {
                 await this.getCarriers(socket, type);
                 break;
             case 'createShipment':
-                await this.createShipment(socket, type, data);
+                await this.createShipment(socket, type, params);
                 break;
             case 'getPrice':
-                await this.getPrice(socket, type, data);
+                await this.getPrice(socket, type, params);
                 break;
             case 'createLabel':
-                await this.createLabel(socket, type, data);
+                await this.createLabel(socket, type, params);
                 break;
             case 'trackPackage':
-                await this.trackPackage(socket, type, data);
+                await this.trackPackage(socket, type, params);
                 break;
         }
     }
@@ -120,9 +120,7 @@ class CoCreateShipengine {
     }
 
     async getPrice(socket, type, data) {
-
         const reqData = data.data;
-
         const sendData = {
             "shipment_id": reqData.shipmentId,
             "rate_options": {
