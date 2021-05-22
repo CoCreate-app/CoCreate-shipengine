@@ -1,3 +1,10 @@
+## [1.0.11](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.0.10...v1.0.11) (2021-05-22)
+
+
+### Bug Fixes
+
+* resData.rate_response?.rates to resData.rate_response?rates ([223d9cb](https://github.com/CoCreate-app/CoCreate-shipengine/commit/223d9cb543397fb66a79bd7e44ab3e823414b0c0))
+
 ## [1.0.10](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.0.9...v1.0.10) (2021-05-22)
 
 
