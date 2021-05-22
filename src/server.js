@@ -145,7 +145,8 @@ class CoCreateShipengine {
 
         const response = {
             'object': 'list',
-            'data': resData.rate_response?.rates,
+            // 'data': resData.rate_response?.rates,
+            'data': resData.rate_response?rates,
         };
 
         api.send_response(this.wsManager, socket, { "type": type, "response": response }, this.module_id);
