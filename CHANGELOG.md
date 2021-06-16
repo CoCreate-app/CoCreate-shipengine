@@ -1,3 +1,10 @@
+## [1.0.13](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.0.12...v1.0.13) (2021-06-16)
+
+
+### Bug Fixes
+
+* added header for seo ([46ad6da](https://github.com/CoCreate-app/CoCreate-shipengine/commit/46ad6da4e4f5b8f6636eafe3227f0f1512a91cdd))
+
 ## [1.0.12](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.0.11...v1.0.12) (2021-05-23)
 
 
