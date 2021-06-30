@@ -1,3 +1,10 @@
+## [1.0.17](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.0.16...v1.0.17) (2021-06-30)
+
+
+### Bug Fixes
+
+* automated and manual workflows ([8a2abd8](https://github.com/CoCreate-app/CoCreate-shipengine/commit/8a2abd859f67fa70b73f3ef1c19976da4871665a))
+
 ## [1.0.16](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.0.15...v1.0.16) (2021-06-25)
 
 
