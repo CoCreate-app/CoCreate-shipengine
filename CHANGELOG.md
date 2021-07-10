@@ -1,3 +1,10 @@
+## [1.0.19](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.0.18...v1.0.19) (2021-07-10)
+
+
+### Bug Fixes
+
+* gitignore all logs ([43bda8d](https://github.com/CoCreate-app/CoCreate-shipengine/commit/43bda8da92d5e71054f26b4a78ee8f9191d88456))
+
 ## [1.0.18](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.0.17...v1.0.18) (2021-06-30)
 
 
