@@ -1,3 +1,11 @@
+## [1.0.20](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.0.19...v1.0.20) (2021-07-13)
+
+
+### Bug Fixes
+
+* add yarn lockfile to git ignore ([747d80f](https://github.com/CoCreate-app/CoCreate-shipengine/commit/747d80f81af1140be8a1806755320974850cdfbd))
+* remove yarn.lock ([ddb1cf6](https://github.com/CoCreate-app/CoCreate-shipengine/commit/ddb1cf6cd24bbcd496c9bdf0c8d4b3b5ed701dbd))
+
 ## [1.0.19](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.0.18...v1.0.19) (2021-07-10)
 
 
