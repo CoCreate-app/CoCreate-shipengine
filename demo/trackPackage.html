@@ -32,12 +32,12 @@
 <div class="container-div">
     <form>
         <label>Label ID</label><input data-shipengine="trackPackage.labelId" value="se-22334381">
-        <button data-actions='trackPackage'>Track Package</button>
+        <button actions='trackPackage'>Track Package</button>
     </form>
-   <div data-template_id="trackPackage">
+   <div template_id="trackPackage">
         <div class="template card card margin:10px " 
             data-value="{{data}}" 
-            data-template_id="trackPackage"
+            template_id="trackPackage"
             data-render-array="data">
         	<label>tracking_number</label><input value="{{data.tracking_number}}"></br>
         	<label>status_description</label><input value="{{data.status_description}}"></br>
