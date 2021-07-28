@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.1.0...v1.1.1) (2021-07-28)
+
+
+### Bug Fixes
+
+* remove data- from fetch, pass and filter ([3d9d1f1](https://github.com/CoCreate-app/CoCreate-shipengine/commit/3d9d1f1296f9d99b9a13377e5f4056785b25800c))
+
 # [1.1.0](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.0.22...v1.1.0) (2021-07-28)
 
 
