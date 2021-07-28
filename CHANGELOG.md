@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.0.22...v1.1.0) (2021-07-28)
+
+
+### Features
+
+* add new is{attribute} system and remove data- from attributtes ([559ad8b](https://github.com/CoCreate-app/CoCreate-shipengine/commit/559ad8b6b6eadf9a0907262829bcdd4e9ddd09fd))
+
 ## [1.0.22](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.0.21...v1.0.22) (2021-07-17)
 
 
