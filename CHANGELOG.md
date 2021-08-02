@@ -1,3 +1,11 @@
+## [1.1.2](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.1.1...v1.1.2) (2021-08-02)
+
+
+### Bug Fixes
+
+* remove data- from attributes ([5a4eabb](https://github.com/CoCreate-app/CoCreate-shipengine/commit/5a4eabbbfc891f23695e011cceca9d6170ffecf5))
+* update data-fullscreen to fullscreen ([669d142](https://github.com/CoCreate-app/CoCreate-shipengine/commit/669d14253e2be21c9230907368023125df5b99fc))
+
 ## [1.1.1](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.1.0...v1.1.1) (2021-07-28)
 
 
