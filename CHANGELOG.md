@@ -1,3 +1,10 @@
+## [1.1.12](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.1.11...v1.1.12) (2021-09-09)
+
+
+### Bug Fixes
+
+* CoCreate.config directory, path, name and  public ([021cdcb](https://github.com/CoCreate-app/CoCreate-shipengine/commit/021cdcb7a29329e196af6b6f356982edbcef1d09))
+
 ## [1.1.11](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.1.10...v1.1.11) (2021-09-08)
 
 
