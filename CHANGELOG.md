@@ -1,3 +1,10 @@
+## [1.1.16](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.1.15...v1.1.16) (2021-09-12)
+
+
+### Bug Fixes
+
+* update sidenav to use resize and toggle ([6f4c774](https://github.com/CoCreate-app/CoCreate-shipengine/commit/6f4c774aec0fe8c16a82c228753a2ec5944f1126))
+
 ## [1.1.15](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.1.14...v1.1.15) (2021-09-09)
 
 
