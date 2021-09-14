@@ -1,3 +1,10 @@
+## [1.1.18](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.1.17...v1.1.18) (2021-09-14)
+
+
+### Bug Fixes
+
+* add cocreate.app to domains ([51b7b02](https://github.com/CoCreate-app/CoCreate-shipengine/commit/51b7b02446432976a0caa57fb7f73deac0b4c29b))
+
 ## [1.1.17](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.1.16...v1.1.17) (2021-09-13)
 
 
