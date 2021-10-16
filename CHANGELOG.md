@@ -1,3 +1,10 @@
+## [1.1.32](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.1.31...v1.1.32) (2021-10-16)
+
+
+### Bug Fixes
+
+* update socket package to fix bug in docs ([80ff1fc](https://github.com/CoCreate-app/CoCreate-shipengine/commit/80ff1fcc8127025ddf326ffa580d8efd78b1a3e1))
+
 ## [1.1.31](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.1.30...v1.1.31) (2021-10-15)
 
 
