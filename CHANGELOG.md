@@ -1,3 +1,10 @@
+## [1.1.47](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.1.46...v1.1.47) (2021-11-26)
+
+
+### Bug Fixes
+
+* docs sidenav width ([8362354](https://github.com/CoCreate-app/CoCreate-shipengine/commit/836235476cb6fbdca0b6d374f4cec0806b330ea4))
+
 ## [1.1.46](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.1.45...v1.1.46) (2021-11-26)
 
 
