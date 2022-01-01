@@ -1,3 +1,10 @@
+## [1.1.54](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.1.53...v1.1.54) (2022-01-01)
+
+
+### Bug Fixes
+
+* get-value attribute value now supports a selector added # to all values currently in get-value attributes ([393f7bf](https://github.com/CoCreate-app/CoCreate-shipengine/commit/393f7bfbb94210a6e8a37dcabe7ba9ea06ef14bb))
+
 ## [1.1.53](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.1.52...v1.1.53) (2022-01-01)
 
 
