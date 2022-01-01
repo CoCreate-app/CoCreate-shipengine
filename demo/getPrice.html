@@ -31,13 +31,13 @@
 <h1>Get Price</h1>
 <div class="container-div">
     <form>
-        <input data-shipengine="getPrice.carrierId" value="se-373265">
-        <input data-shipengine="getPrice.shipmentId" value="se-48119889">
+        <input shipengine="getPrice.carrierId" value="se-373265">
+        <input shipengine="getPrice.shipmentId" value="se-48119889">
         <button actions='getPrice'>GetPrice</button>
     </form>
    <div template_id="getPrice">
         <div class="template card card margin:10px " 
-            data-value="{{data}}" 
+            value="{{data}}" 
             template_id="createShipment"
             render-array="data">
         	<label>carrier_code</label><input value="{{data.carrier_code}}"></br>

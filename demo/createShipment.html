@@ -31,46 +31,46 @@
 <h1>Create ShipMent</h1>
 <div class="container-div">
     <form>
-        <div data-shipengine="createShipment.shipments" data-shipengine_array="shipments">
-            <label>Validate</label><input data-shipengine="shipments.validate" value="no_validation"></br>
-            <label>service_code</label><input data-shipengine="shipments.service_code" value="usps_priority_mail"></br>
-            <label>external_shipment_id</label><input data-shipengine="shipments.external_shipment_id" value=""></br>
-            <label>confirmation</label><input data-shipengine="shipments.confirmation" value="none"></br>
-            <label>advanced_options</label><input data-shipengine="shipments.advanced_options" value=""></br>
-            <label>insurance_provider</label><input data-shipengine="shipments.insurance_provider" value="none"></br>
-            <label>targs</label><input data-shipengine="shipments.targs" value=""></br>
+        <div shipengine="createShipment.shipments" shipengine_array="shipments">
+            <label>Validate</label><input shipengine="shipments.validate" value="no_validation"></br>
+            <label>service_code</label><input shipengine="shipments.service_code" value="usps_priority_mail"></br>
+            <label>external_shipment_id</label><input shipengine="shipments.external_shipment_id" value=""></br>
+            <label>confirmation</label><input shipengine="shipments.confirmation" value="none"></br>
+            <label>advanced_options</label><input shipengine="shipments.advanced_options" value=""></br>
+            <label>insurance_provider</label><input shipengine="shipments.insurance_provider" value="none"></br>
+            <label>targs</label><input shipengine="shipments.targs" value=""></br>
         
             <div class='item'>ship_to</div>
-            <div data-shipengine="shipments.ship_to" data-shipengine_array="ship_to">
-            	<label>name</label><input data-shipengine="ship_to.name"  value="John Doe"></br>
-            	<label>phone</label><input data-shipengine="ship_to.phone"  value="555-555-5555"></br>
-            	<label>address_line1</label><input data-shipengine="ship_to.address_line1"  value="525 S Winchester Blvd"></br>
-            	<label>city_locality</label><input data-shipengine="ship_to.city_locality"  value="San Jose"></br>
-            	<label>state_province</label><input data-shipengine="ship_to.state_province"  value="CA"></br>
-            	<label>postal_code</label><input data-shipengine="ship_to.postal_code"  value="95128"></br>
-            	<label>country</label><input data-shipengine="ship_to.country_code"  value="US"></br>
-            	<label>RDI</label><input data-shipengine="ship_to.address_residential_indicator"  value="yes"></br>
+            <div shipengine="shipments.ship_to" shipengine_array="ship_to">
+            	<label>name</label><input shipengine="ship_to.name"  value="John Doe"></br>
+            	<label>phone</label><input shipengine="ship_to.phone"  value="555-555-5555"></br>
+            	<label>address_line1</label><input shipengine="ship_to.address_line1"  value="525 S Winchester Blvd"></br>
+            	<label>city_locality</label><input shipengine="ship_to.city_locality"  value="San Jose"></br>
+            	<label>state_province</label><input shipengine="ship_to.state_province"  value="CA"></br>
+            	<label>postal_code</label><input shipengine="ship_to.postal_code"  value="95128"></br>
+            	<label>country</label><input shipengine="ship_to.country_code"  value="US"></br>
+            	<label>RDI</label><input shipengine="ship_to.address_residential_indicator"  value="yes"></br>
             </div>
             
             <div class='item'>ship_form</div>
-            <div data-shipengine="shipments.ship_form" data-shipengine_array="ship_form">
-            	<label>name</label><input data-shipengine="ship_form.name" value="John Doe"></br>
-            	<label>company_name</label><input data-shipengine="ship_form.company_name"  value="Corp"></br>
-            	<label>phone</label><input data-shipengine="ship_form.phone"  value="555-555-5555"></br>
-            	<label>address_line1</label><input data-shipengine="ship_form.address_line1"  value="4009 Marathon Blvd"></br>
-            	<label>address_line2</label><input data-shipengine="ship_form.address_line2"  value="Suite 300"></br>
-            	<label>city_locality</label><input data-shipengine="ship_form.city_locality"  value="Austin"></br>
-            	<label>state_province</label><input data-shipengine="ship_form.state_province"  value="TX"></br>
-            	<label>postal_code</label><input data-shipengine="ship_form.postal_code"  value="78756"></br>
-            	<label>country</label><input data-shipengine="ship_form.country_code"  value="US"></br>
-            	<label>RDI</label><input data-shipengine="ship_form.address_residential_indicator"  value="no"></br>
+            <div shipengine="shipments.ship_form" shipengine_array="ship_form">
+            	<label>name</label><input shipengine="ship_form.name" value="John Doe"></br>
+            	<label>company_name</label><input shipengine="ship_form.company_name"  value="Corp"></br>
+            	<label>phone</label><input shipengine="ship_form.phone"  value="555-555-5555"></br>
+            	<label>address_line1</label><input shipengine="ship_form.address_line1"  value="4009 Marathon Blvd"></br>
+            	<label>address_line2</label><input shipengine="ship_form.address_line2"  value="Suite 300"></br>
+            	<label>city_locality</label><input shipengine="ship_form.city_locality"  value="Austin"></br>
+            	<label>state_province</label><input shipengine="ship_form.state_province"  value="TX"></br>
+            	<label>postal_code</label><input shipengine="ship_form.postal_code"  value="78756"></br>
+            	<label>country</label><input shipengine="ship_form.country_code"  value="US"></br>
+            	<label>RDI</label><input shipengine="ship_form.address_residential_indicator"  value="no"></br>
             </div>
             
             <div class='item'>packages</div> 
-            <div data-shipengine="shipments.packages" data-shipengine_array="packages">
-            	<div data-shipengine="packages.weight" data-shipengine_array="weight">
-            	    <label>value</label><input data-shipengine="weight.value"  value="2"></br>
-            	    <label>unit</label><input data-shipengine="weight.unit"  value="ounce"></br>
+            <div shipengine="shipments.packages" shipengine_array="packages">
+            	<div shipengine="packages.weight" shipengine_array="weight">
+            	    <label>value</label><input shipengine="weight.value"  value="2"></br>
+            	    <label>unit</label><input shipengine="weight.unit"  value="ounce"></br>
             	</div>
             </div>
         </div>
@@ -81,7 +81,7 @@
     
     <div template_id="createShipment" >
       <div class="template card card margin:10px " 
-        data-value="{{data}}" 
+        value="{{data}}" 
         template_id="createShipment"
         render-array="data">
             <div class="display:flex justify-content:space-between align-items:center width:100%">
