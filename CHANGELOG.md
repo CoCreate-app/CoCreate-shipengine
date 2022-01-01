@@ -1,3 +1,10 @@
+## [1.1.53](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.1.52...v1.1.53) (2022-01-01)
+
+
+### Bug Fixes
+
+* removed data- from attributes ([af9059f](https://github.com/CoCreate-app/CoCreate-shipengine/commit/af9059ff0c74be0b8b39bf899a76b84215c2f94b))
+
 ## [1.1.52](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.1.51...v1.1.52) (2021-12-15)
 
 
