@@ -1,3 +1,10 @@
+## [1.1.56](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.1.55...v1.1.56) (2022-02-03)
+
+
+### Bug Fixes
+
+* replaced show and hide class hidden with attribute hidden ([9910a35](https://github.com/CoCreate-app/CoCreate-shipengine/commit/9910a35bd5a04d9fdf2fa401d4686a5551a922b6))
+
 ## [1.1.55](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.1.54...v1.1.55) (2022-02-01)
 
 
