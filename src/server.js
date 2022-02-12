@@ -24,8 +24,8 @@ class CoCreateShipengine {
        
         try{
       	       let enviroment = typeof params['enviroment'] != 'undefined' ? params['enviroment'] : this.enviroment;
-               let org_row = await api.getOrg(params,this.module_id);
-               this.API_KEY =  org_row['apis.'+this.module_id+'.'+enviroment+'.API_KEY'];
+               let org = await api.getOrg(params,this.module_id);
+               this.API_KEY =  org['apis.'+this.module_id+'.'+enviroment+'.API_KEY'];
       	 }catch(e){
       	   	console.log(this.module_id+" : Error Connect to api",e)
       	   	return false;
