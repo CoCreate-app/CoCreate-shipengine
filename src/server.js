@@ -4,7 +4,7 @@ const request = require('request');
 
 class CoCreateShipengine {
     constructor(wsManager) {
-        this.module_id = 'shipengine';
+        this.moduleName = 'shipengine';
         this.wsManager = wsManager;
         this.enviroment = 'test';
         this.API_KEY = null;
@@ -14,7 +14,7 @@ class CoCreateShipengine {
 
     init() {
         if (this.wsManager) {
-            this.wsManager.on(this.module_id, (socket, data) => this.sendDataShipEngine(socket, data));
+            this.wsManager.on(this.moduleName, (socket, data) => this.sendDataShipEngine(socket, data));
         }
     }
 
@@ -24,10 +24,10 @@ class CoCreateShipengine {
        
         try{
       	       let enviroment = typeof params['enviroment'] != 'undefined' ? params['enviroment'] : this.enviroment;
-               let org = await api.getOrg(params,this.module_id);
-               this.API_KEY =  org['apis.'+this.module_id+'.'+enviroment+'.API_KEY'];
+               let org = await api.getOrg(params,this.moduleName);
+               this.API_KEY =  org['apis.'+this.moduleName+'.'+enviroment+'.API_KEY'];
       	 }catch(e){
-      	   	console.log(this.module_id+" : Error Connect to api",e)
+      	   	console.log(this.moduleName+" : Error Connect to api",e)
       	   	return false;
       	 }
 
@@ -67,7 +67,7 @@ class CoCreateShipengine {
             'object': 'list',
             'data': resData.carriers,
         };
-        api.send_response(this.wsManager, socket, { "type": type, "response": response }, this.module_id)
+        api.send_response(this.wsManager, socket, { "type": type, "response": response }, this.moduleName)
     }
 
     async createShipment(socket, type, data) {
@@ -116,7 +116,7 @@ class CoCreateShipengine {
             'data': resData.shipments,
         };
 
-        api.send_response(this.wsManager, socket, { "type": type, "response": response }, this.module_id);
+        api.send_response(this.wsManager, socket, { "type": type, "response": response }, this.moduleName);
     }
 
     async getPrice(socket, type, data) {
@@ -149,7 +149,7 @@ class CoCreateShipengine {
             'data': resData.rate_response.rates,
         };
 
-        api.send_response(this.wsManager, socket, { "type": type, "response": response }, this.module_id);
+        api.send_response(this.wsManager, socket, { "type": type, "response": response }, this.moduleName);
     }
 
     async createLabel(socket, type, data) {
@@ -196,7 +196,7 @@ class CoCreateShipengine {
             'data': [resData],
         };
 
-        api.send_response(this.wsManager, socket, { "type": type, "response": response }, this.module_id);
+        api.send_response(this.wsManager, socket, { "type": type, "response": response }, this.moduleName);
     }
 
     async trackPackage(socket, type, data) {
@@ -220,7 +220,7 @@ class CoCreateShipengine {
             'data': [resData],
         };
 
-        api.send_response(this.wsManager, socket, { "type": type, "response": response }, this.module_id);
+        api.send_response(this.wsManager, socket, { "type": type, "response": response }, this.moduleName);
     }
 
     invoke(options) {
