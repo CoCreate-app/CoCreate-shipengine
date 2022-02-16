@@ -1,3 +1,16 @@
+# [1.2.0](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.1.58...v1.2.0) (2022-02-16)
+
+
+### Bug Fixes
+
+* update dependencies ([0fdb33d](https://github.com/CoCreate-app/CoCreate-shipengine/commit/0fdb33d31a515a610fc5ca7ea3c1f288110f8063))
+* update param name org_row to org ([c770c19](https://github.com/CoCreate-app/CoCreate-shipengine/commit/c770c19112f2447587efbfed5d5fc96593b43b3b))
+
+
+### Features
+
+* define request and response functions, if functions are not deifne defualt functions exist that will request and render results. Reduced and improved code quality ([307f534](https://github.com/CoCreate-app/CoCreate-shipengine/commit/307f534ecc3e6e6025a556ba11e27e4f86014b35))
+
 ## [1.1.58](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.1.57...v1.1.58) (2022-02-10)
 
 
