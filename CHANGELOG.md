@@ -1,3 +1,11 @@
+## [1.2.1](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.2.0...v1.2.1) (2022-02-24)
+
+
+### Bug Fixes
+
+* CoCreate.config replace CoCreate.app with * ([86888c2](https://github.com/CoCreate-app/CoCreate-shipengine/commit/86888c20df93886a87d760b431f7f53a670d0054))
+* get environemt and keys using dot notation ([0035655](https://github.com/CoCreate-app/CoCreate-shipengine/commit/00356553350e3405583faaf185c4a89a864bea1b))
+
 # [1.2.0](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.1.58...v1.2.0) (2022-02-16)
 
 
