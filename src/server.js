@@ -6,7 +6,7 @@ class CoCreateShipengine {
     constructor(wsManager) {
         this.moduleName = 'shipengine';
         this.wsManager = wsManager;
-        this.enviroment = 'test';
+        this.environment = 'test';
         this.API_KEY = null;
         this.init();
 
@@ -19,39 +19,58 @@ class CoCreateShipengine {
     }
 
     async sendDataShipEngine(socket, data) {
-        let type = data['type'];
+        let action = data['action'];
         const params = data['data'];
        
         try{
-      	       let enviroment = typeof params['enviroment'] != 'undefined' ? params['enviroment'] : this.enviroment;
-               let org = await api.getOrg(params,this.moduleName);
-               this.API_KEY =  org['apis.'+this.moduleName+'.'+enviroment+'.API_KEY'];
-      	 }catch(e){
-      	   	console.log(this.moduleName+" : Error Connect to api",e)
-      	   	return false;
-      	 }
+            let org = await api.getOrg(data, this.moduleName);
+            if (params.environment){
+              environment = params['environment'];
+              delete params['environment'];  
+            } else {
+              environment = org.apis[this.moduleName].environment;
+            }
+            this.API_KEY =  org.apis[this.moduleName][environment].API_KEY'];
+        }catch(e){
+            console.log(this.moduleName+" : Error Connect to api",e)
+            return false;
+        }
+        
+        try {
+            let response
+            switch (action) {
+                case 'getCarriers':
+                    await this.getCarriers();
+                    break;
+                case 'createShipment':
+                    await this.createShipment(params);
+                    break;
+                case 'getPrice':
+                    await this.getPrice(params);
+                    break;
+                case 'createLabel':
+                    await this.createLabel(params);
+                    break;
+                case 'trackPackage':
+                    await this.trackPackage(params);
+                    break;
+            }
+            this.wsManager.send(socket, this.moduleName, { action, response })
 
-        switch (type) {
-            case 'getCarriers':
-                await this.getCarriers(socket, type);
-                break;
-            case 'createShipment':
-                await this.createShipment(socket, type, params);
-                break;
-            case 'getPrice':
-                await this.getPrice(socket, type, params);
-                break;
-            case 'createLabel':
-                await this.createLabel(socket, type, params);
-                break;
-            case 'trackPackage':
-                await this.trackPackage(socket, type, params);
-                break;
+        } catch (error) {
+        this.handleError(socket, action, error)
         }
     }
 
-    async getCarriers(socket, type) {
+    handleError(socket, action, error) {
+        const response = {
+            'object': 'error',
+            'data': error || error.response || error.response.data || error.response.body || error.message || error,
+        };
+        this.wsManager.send(socket, this.moduleName, { action, response })
+    }	
 
+    async getCarriers() {
         const options = {
             'method': 'GET',
             'url': 'https://api.shipengine.com/v1/carriers',
@@ -67,10 +86,10 @@ class CoCreateShipengine {
             'object': 'list',
             'data': resData.carriers,
         };
-        api.send_response(this.wsManager, socket, { "type": type, "response": response }, this.moduleName)
+        return response
     }
 
-    async createShipment(socket, type, data) {
+    async createShipment(data) {
 
         const reqData = data.data.shipments[0];
 
@@ -116,10 +135,10 @@ class CoCreateShipengine {
             'data': resData.shipments,
         };
 
-        api.send_response(this.wsManager, socket, { "type": type, "response": response }, this.moduleName);
+        return response
     }
 
-    async getPrice(socket, type, data) {
+    async getPrice(data) {
         const reqData = data.data;
         const sendData = {
             "shipment_id": reqData.shipmentId,
@@ -149,10 +168,10 @@ class CoCreateShipengine {
             'data': resData.rate_response.rates,
         };
 
-        api.send_response(this.wsManager, socket, { "type": type, "response": response }, this.moduleName);
+        return response
     }
 
-    async createLabel(socket, type, data) {
+    async createLabel(data) {
 
         const reqData = data.data.shipments[0];
 
@@ -196,10 +215,10 @@ class CoCreateShipengine {
             'data': [resData],
         };
 
-        api.send_response(this.wsManager, socket, { "type": type, "response": response }, this.moduleName);
+        return response
     }
 
-    async trackPackage(socket, type, data) {
+    async trackPackage(data) {
 
         const reqData = data.data;
 
@@ -220,7 +239,7 @@ class CoCreateShipengine {
             'data': [resData],
         };
 
-        api.send_response(this.wsManager, socket, { "type": type, "response": response }, this.moduleName);
+        return response
     }
 
     invoke(options) {
