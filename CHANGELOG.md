@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.2.1...v1.2.2) (2022-02-27)
+
+
+### Bug Fixes
+
+* update param  module to component ([ec51b3e](https://github.com/CoCreate-app/CoCreate-shipengine/commit/ec51b3e1ce0a8d1a5634f30db5e03bc22086641d))
+
 ## [1.2.1](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.2.0...v1.2.1) (2022-02-24)
 
 
