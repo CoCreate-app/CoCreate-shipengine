@@ -4,7 +4,7 @@ const request = require('request');
 
 class CoCreateShipengine {
     constructor(wsManager) {
-        this.moduleName = 'shipengine';
+        this.name = 'shipengine';
         this.wsManager = wsManager;
         this.environment = 'test';
         this.API_KEY = null;
@@ -14,7 +14,7 @@ class CoCreateShipengine {
 
     init() {
         if (this.wsManager) {
-            this.wsManager.on(this.moduleName, (socket, data) => this.sendDataShipEngine(socket, data));
+            this.wsManager.on(this.name, (socket, data) => this.sendDataShipEngine(socket, data));
         }
     }
 
@@ -23,16 +23,16 @@ class CoCreateShipengine {
         const params = data['data'];
        
         try{
-            let org = await api.getOrg(data, this.moduleName);
+            let org = await api.getOrg(data, this.name);
             if (params.environment){
               environment = params['environment'];
               delete params['environment'];  
             } else {
-              environment = org.apis[this.moduleName].environment;
+              environment = org.apis[this.name].environment;
             }
-            this.API_KEY =  org.apis[this.moduleName][environment].API_KEY'];
+            this.API_KEY =  org.apis[this.name][environment].API_KEY'];
         }catch(e){
-            console.log(this.moduleName+" : Error Connect to api",e)
+            console.log(this.name+" : Error Connect to api",e)
             return false;
         }
         
@@ -55,7 +55,7 @@ class CoCreateShipengine {
                     await this.trackPackage(params);
                     break;
             }
-            this.wsManager.send(socket, this.moduleName, { action, response })
+            this.wsManager.send(socket, this.name, { action, response })
 
         } catch (error) {
         this.handleError(socket, action, error)
@@ -67,7 +67,7 @@ class CoCreateShipengine {
             'object': 'error',
             'data': error || error.response || error.response.data || error.response.body || error.message || error,
         };
-        this.wsManager.send(socket, this.moduleName, { action, response })
+        this.wsManager.send(socket, this.name, { action, response })
     }	
 
     async getCarriers() {

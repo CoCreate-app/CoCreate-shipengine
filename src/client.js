@@ -13,7 +13,7 @@ const CoCreateShipEngine = {
 
 api.init({
 	name: CoCreateShipEngine.name, 
-	module:	CoCreateShipEngine,
+	component:	CoCreateShipEngine,
 });
 
 export default CoCreateShipEngine;
