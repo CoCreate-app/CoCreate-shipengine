@@ -1,3 +1,10 @@
+## [1.2.3](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.2.2...v1.2.3) (2022-02-28)
+
+
+### Bug Fixes
+
+* syntax error ([b2ef5e2](https://github.com/CoCreate-app/CoCreate-shipengine/commit/b2ef5e228f55a57172aea52754b3e5c2fc91ea88))
+
 ## [1.2.2](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.2.1...v1.2.2) (2022-02-27)
 
 
