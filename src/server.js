@@ -30,7 +30,7 @@ class CoCreateShipengine {
             } else {
               environment = org.apis[this.name].environment;
             }
-            this.API_KEY =  org.apis[this.name][environment].API_KEY'];
+            this.API_KEY =  org.apis[this.name][environment].API_KEY;
         }catch(e){
             console.log(this.name+" : Error Connect to api",e)
             return false;
