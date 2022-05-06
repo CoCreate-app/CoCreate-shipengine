@@ -1,3 +1,10 @@
+## [1.2.4](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.2.3...v1.2.4) (2022-05-06)
+
+
+### Bug Fixes
+
+* update config organization_Id to organization_id ([fd4bf6b](https://github.com/CoCreate-app/CoCreate-shipengine/commit/fd4bf6b8d24e758be880aa8d392d3317a5db8902))
+
 ## [1.2.3](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.2.2...v1.2.3) (2022-02-28)
 
 
