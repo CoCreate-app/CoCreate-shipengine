@@ -1,3 +1,10 @@
+## [1.2.5](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.2.4...v1.2.5) (2022-05-19)
+
+
+### Bug Fixes
+
+* update document_id on link index.css ([d5ad654](https://github.com/CoCreate-app/CoCreate-shipengine/commit/d5ad65436f21b7e6b88ef76c0fb4e137435f2421))
+
 ## [1.2.4](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.2.3...v1.2.4) (2022-05-06)
 
 
