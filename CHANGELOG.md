@@ -1,3 +1,11 @@
+## [1.2.7](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.2.6...v1.2.7) (2022-06-12)
+
+
+### Bug Fixes
+
+* update dependencies ([ea47791](https://github.com/CoCreate-app/CoCreate-shipengine/commit/ea47791a438b30dba8e81a65e726561a60e4925d))
+* update docs css document_id ([f4a040b](https://github.com/CoCreate-app/CoCreate-shipengine/commit/f4a040b2d74ebdb6f285e02e94d611e721d8bc90))
+
 ## [1.2.6](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.2.5...v1.2.6) (2022-05-23)
 
 
