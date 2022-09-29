@@ -1,3 +1,10 @@
+## [1.2.10](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.2.9...v1.2.10) (2022-09-29)
+
+
+### Bug Fixes
+
+* config renameed to CoCreateConfig ([5d08fcb](https://github.com/CoCreate-app/CoCreate-shipengine/commit/5d08fcba9b863437260aef8007a42d3f60a21b7b))
+
 ## [1.2.9](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.2.8...v1.2.9) (2022-09-01)
 
 
