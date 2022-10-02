@@ -1,3 +1,10 @@
+## [1.2.17](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.2.16...v1.2.17) (2022-10-02)
+
+
+### Bug Fixes
+
+* bump @cocreate/hosting and @cocreate/socket-client ([fe979fb](https://github.com/CoCreate-app/CoCreate-shipengine/commit/fe979fbf51222c815c974f03aba558108cd94e8c))
+
 ## [1.2.16](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.2.15...v1.2.16) (2022-10-01)
 
 
