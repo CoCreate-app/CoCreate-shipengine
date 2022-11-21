@@ -10,7 +10,7 @@ module.exports = {
             "collection": "files",
             "document_id": "6029a4fee979fb17407e25d1",
             "key": "src",
-            "data":{
+            "document": {
                 "name": "index.html",
                 "path": "/docs/shipengine/index.html",
                 "domains": [
