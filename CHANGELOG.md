@@ -1,3 +1,10 @@
+## [1.2.21](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.2.20...v1.2.21) (2022-11-21)
+
+
+### Bug Fixes
+
+* replaced document_id with document._id ([09025af](https://github.com/CoCreate-app/CoCreate-shipengine/commit/09025af03748fee0cffa17ffacc8345a4aa9d34d))
+
 ## [1.2.20](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.2.19...v1.2.20) (2022-11-21)
 
 
