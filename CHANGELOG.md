@@ -1,3 +1,11 @@
+## [1.2.23](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.2.22...v1.2.23) (2022-11-22)
+
+
+### Bug Fixes
+
+* apply src: {{source}} to CoCreate.config ([52b9878](https://github.com/CoCreate-app/CoCreate-shipengine/commit/52b9878e517ad36f763a8b00102e65e496a2516b))
+* workflow docs ([584f84d](https://github.com/CoCreate-app/CoCreate-shipengine/commit/584f84d7211ad72ca22c22825ae728d2d2c148d5))
+
 ## [1.2.22](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.2.21...v1.2.22) (2022-11-21)
 
 
