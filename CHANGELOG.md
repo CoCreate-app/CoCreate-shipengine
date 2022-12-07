@@ -1,3 +1,10 @@
+## [1.2.34](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.2.33...v1.2.34) (2022-12-07)
+
+
+### Bug Fixes
+
+* bump dependencies ([109c885](https://github.com/CoCreate-app/CoCreate-shipengine/commit/109c885d2b3e91581ab43a8d9570a28729787713))
+
 ## [1.2.33](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.2.32...v1.2.33) (2022-12-04)
 
 
