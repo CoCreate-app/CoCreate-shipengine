@@ -1,3 +1,10 @@
+## [1.2.40](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.2.39...v1.2.40) (2022-12-13)
+
+
+### Bug Fixes
+
+* removed un used devDependencies ([ecd59a9](https://github.com/CoCreate-app/CoCreate-shipengine/commit/ecd59a97b4694bac24ffa9d3b92529c7ceaf8f57))
+
 ## [1.2.39](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.2.38...v1.2.39) (2022-12-13)
 
 
