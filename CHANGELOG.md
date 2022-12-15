@@ -1,3 +1,10 @@
+## [1.2.41](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.2.40...v1.2.41) (2022-12-15)
+
+
+### Bug Fixes
+
+* add missing dev dependency style-loader ([55d999b](https://github.com/CoCreate-app/CoCreate-shipengine/commit/55d999bf38bec61fd9301e704b6301435a00bd1e))
+
 ## [1.2.40](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.2.39...v1.2.40) (2022-12-13)
 
 
