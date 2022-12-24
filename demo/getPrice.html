@@ -1,73 +1,65 @@
  <!DOCTYPE html>
 <html>
-<head>
-    <title>ShipEngine</title>
+    <head>
+        <title>ShipEngine</title>
 
-    <style type="text/css">
-      .template{display:none}
-      .item{
-          font-weight: bold;
-          margin-top:10px;
-          font-size:20px;
-      }
-      .subitem{
-          font-size:15px;
-          font-weight: bold;
-          margin-top: 5px;
-      }
-      label{
-          display:inline-block;
-          width:120px;
-      }
-      button{
-          margin:10px;
-      }
-      
-    </style>
+        <style type="text/css">
+        .template{display:none}
+        .item{
+            font-weight: bold;
+            margin-top:10px;
+            font-size:20px;
+        }
+        .subitem{
+            font-size:15px;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+        label{
+            display:inline-block;
+            width:120px;
+        }
+        button{
+            margin:10px;
+        }
+        
+        </style>
 
-</head>
-<body>
-    
-<h1>Get Price</h1>
-<div class="container-div">
-    <form>
-        <input shipengine="getPrice.carrierId" value="se-373265">
-        <input shipengine="getPrice.shipmentId" value="se-48119889">
-        <button actions='getPrice'>GetPrice</button>
-    </form>
-   <div template_id="getPrice">
-        <div class="template card card margin:10px " 
-            value="{{data}}" 
-            template_id="createShipment"
-            render-array="data">
-        	<label>carrier_code</label><input value="{{data.carrier_code}}"></br>
-        	<label>carrier_delivery_days</label><input value="{{data.carrier_delivery_days}}"></br>
-        	<label>carrier_friendly_name</label><input value="{{data.carrier_friendly_name}}"></br>
-        	<label>carrier_id</label><input value="{{data.carrier_id}}"></br>
-        	<label>estimated_delivery_date</label><input value="{{data.estimated_delivery_date}}"></br>
-        	<label>rate_id</label><input value="{{data.rate_id}}"></br>
-        	<label>rate_type</label><input  value="{{data.rate_type}}"></br>
-        	<label>service_type</label><input  value="{{data.service_type}}"></br>
-        	<label>ship_date</label><input value="{{data.ship_date}}"></br>
-        	<label>amount</label><input value="{{data.shipping_amount.amount}}"></br>
-        	<label>currency</label><input value="{{data.shipping_amount.currency}}"></br>
-        	<label>validation_status</label><input value="{{data.validation_status}}"></br>
+    </head>
+    <body>
+        
+    <h1>Get Price</h1>
+    <div class="container-div">
+        <form>
+            <input shipengine="getPrice.carrierId" value="se-373265">
+            <input shipengine="getPrice.shipmentId" value="se-48119889">
+            <button actions='getPrice'>GetPrice</button>
+        </form>
+        <div template_id="getPrice">
+                <div class="template card card margin:10px " 
+                    value="{{data}}" 
+                    template_id="createShipment"
+                    render-array="data">
+                    <label>carrier_code</label><input value="{{data.carrier_code}}"></br>
+                    <label>carrier_delivery_days</label><input value="{{data.carrier_delivery_days}}"></br>
+                    <label>carrier_friendly_name</label><input value="{{data.carrier_friendly_name}}"></br>
+                    <label>carrier_id</label><input value="{{data.carrier_id}}"></br>
+                    <label>estimated_delivery_date</label><input value="{{data.estimated_delivery_date}}"></br>
+                    <label>rate_id</label><input value="{{data.rate_id}}"></br>
+                    <label>rate_type</label><input  value="{{data.rate_type}}"></br>
+                    <label>service_type</label><input  value="{{data.service_type}}"></br>
+                    <label>ship_date</label><input value="{{data.ship_date}}"></br>
+                    <label>amount</label><input value="{{data.shipping_amount.amount}}"></br>
+                    <label>currency</label><input value="{{data.shipping_amount.currency}}"></br>
+                    <label>validation_status</label><input value="{{data.validation_status}}"></br>
+                </div>
+            </div>
         </div>
-    </div>
-</div>
+
+        <script src="https://cdn.cocreate.app/latest/CoCreate.min.js" ></script>
+        <!--<script src="../dist/CoCreate-shipengine.js"></script>-->
 
 
-
-
-<!--CoCreateJS-->
-<!--<script src="https://cdn.cocreate.app/latest/CoCreate.min.js" ></script>-->
-
-<!--CoCreate Plugins-->
-
-<!--<script src="../dist/CoCreate-shipengine.js"></script>-->
-<script src="https://cdn.cocreate.app/1.34.3/CoCreate.min.js"></script>
-
-
-</body>
+    </body>
 
 </html>
