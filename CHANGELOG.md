@@ -1,3 +1,10 @@
+## [1.2.50](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.2.49...v1.2.50) (2022-12-30)
+
+
+### Bug Fixes
+
+* update config sources to use template  braces with entry on src ([2880556](https://github.com/CoCreate-app/CoCreate-shipengine/commit/2880556a61fabfe1b87749028b7e779bd7161310))
+
 ## [1.2.49](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.2.48...v1.2.49) (2022-12-29)
 
 
