@@ -1,3 +1,10 @@
+## [1.2.52](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.2.51...v1.2.52) (2023-01-01)
+
+
+### Bug Fixes
+
+* docs sanbox overflow ([5fc3295](https://github.com/CoCreate-app/CoCreate-shipengine/commit/5fc3295fa0080bf8a6c39545efb6df7cd00ca0f4))
+
 ## [1.2.51](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.2.50...v1.2.51) (2022-12-31)
 
 
