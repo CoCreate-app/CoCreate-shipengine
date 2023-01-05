@@ -1,3 +1,11 @@
+## [1.2.53](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.2.52...v1.2.53) (2023-01-05)
+
+
+### Bug Fixes
+
+* bump cdn to 1.39.4 ([c578a7c](https://github.com/CoCreate-app/CoCreate-shipengine/commit/c578a7c48f95c59f193f66000bd501c33976c2ab))
+* bump dependencies ([4a93208](https://github.com/CoCreate-app/CoCreate-shipengine/commit/4a93208d47a5f301bf1300fc8703a3a72ad823d2))
+
 ## [1.2.52](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.2.51...v1.2.52) (2023-01-01)
 
 
