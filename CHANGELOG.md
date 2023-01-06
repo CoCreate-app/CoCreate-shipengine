@@ -1,3 +1,11 @@
+## [1.2.54](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.2.53...v1.2.54) (2023-01-06)
+
+
+### Bug Fixes
+
+* bump dependencies, worklow [@v3](https://github.com/v3) ([0446e25](https://github.com/CoCreate-app/CoCreate-shipengine/commit/0446e2559a6ac56cb1016364a436f6b51811c02d))
+* edit in github btn styles ([a5b6740](https://github.com/CoCreate-app/CoCreate-shipengine/commit/a5b6740434ac63397cfe4e33155fd2667b734a7b))
+
 ## [1.2.53](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.2.52...v1.2.53) (2023-01-05)
 
 
