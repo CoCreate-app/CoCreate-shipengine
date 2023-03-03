@@ -2,7 +2,7 @@ import api from '@cocreate/api'
 
 const CoCreateShipEngine = {
     name: 'shipengine',
-    actions: {
+    endPoints: {
         getCarriers: {},
         createShipment: {},
         getPrice: {},
@@ -11,9 +11,6 @@ const CoCreateShipEngine = {
     }
 }
 
-api.init({
-	name: CoCreateShipEngine.name, 
-	component:	CoCreateShipEngine,
-});
+api.init(CoCreateShipEngine);
 
 export default CoCreateShipEngine;
