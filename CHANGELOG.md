@@ -1,3 +1,10 @@
+## [1.2.64](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.2.63...v1.2.64) (2023-03-15)
+
+
+### Bug Fixes
+
+* actions object renamed to endPoints ([56c8f45](https://github.com/CoCreate-app/CoCreate-shipengine/commit/56c8f457ba929d4fd4e1785129049b2f6cc5faac))
+
 ## [1.2.63](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.2.62...v1.2.63) (2023-02-01)
 
 
