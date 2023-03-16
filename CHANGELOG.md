@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.2.64...v1.3.0) (2023-03-16)
+
+
+### Features
+
+* replaced get-value and set-value with a super charged version of CoCreate-events ([c5eb384](https://github.com/CoCreate-app/CoCreate-shipengine/commit/c5eb3843423cd811341c92af076a8538e86ff422))
+
 ## [1.2.64](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.2.63...v1.2.64) (2023-03-15)
 
 
