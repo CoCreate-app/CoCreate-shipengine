@@ -1,3 +1,10 @@
+## [1.3.4](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.3.3...v1.3.4) (2023-04-11)
+
+
+### Bug Fixes
+
+* renamed domains to hosts ([5172dee](https://github.com/CoCreate-app/CoCreate-shipengine/commit/5172dee137a41977493f9c5ad290d70ec9adb675))
+
 ## [1.3.3](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.3.2...v1.3.3) (2023-03-30)
 
 
