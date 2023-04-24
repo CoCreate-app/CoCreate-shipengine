@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.3.6...v1.4.0) (2023-04-24)
+
+
+### Features
+
+* added pwa manifest ([3b5a194](https://github.com/CoCreate-app/CoCreate-shipengine/commit/3b5a194e3427f57283c873ddabbd1dad7e3e247a))
+
 ## [1.3.6](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.3.5...v1.3.6) (2023-04-11)
 
 
