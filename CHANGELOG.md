@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.4.0...v1.4.1) (2023-04-24)
+
+
+### Bug Fixes
+
+* removed uglifyjs-webpack-plugin ([f960921](https://github.com/CoCreate-app/CoCreate-shipengine/commit/f96092106be738f272808d042d671dee4e928845))
+
 # [1.4.0](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.3.6...v1.4.0) (2023-04-24)
 
 
