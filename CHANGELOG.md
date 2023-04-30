@@ -1,3 +1,13 @@
+## [1.4.4](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.4.3...v1.4.4) (2023-04-30)
+
+
+### Bug Fixes
+
+* fullscreen target updated to fullscreen fullscreen-target ([6e46f4a](https://github.com/CoCreate-app/CoCreate-shipengine/commit/6e46f4aa07948b41dc60b3900faba1a85de2f2ed))
+* package-lock.json and pnpm-lock.yaml added to .gitignore ([12ee238](https://github.com/CoCreate-app/CoCreate-shipengine/commit/12ee2380a286ff7996ffa9794a6cdba4079f5605))
+* removed toogle fullscreen icons. now using css content ([ad5cd79](https://github.com/CoCreate-app/CoCreate-shipengine/commit/ad5cd7970a9e7977093f3bdb94efe02c472a4ef2))
+* updated worrkflows to v3 and node version 16 ([04ffe00](https://github.com/CoCreate-app/CoCreate-shipengine/commit/04ffe00224c85e2aed0eac3fbd6e2f5bf3267b0a))
+
 ## [1.4.3](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.4.2...v1.4.3) (2023-04-24)
 
 
