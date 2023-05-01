@@ -1,3 +1,10 @@
+## [1.4.5](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.4.4...v1.4.5) (2023-05-01)
+
+
+### Bug Fixes
+
+* replace fontawesome with svg ([95adc70](https://github.com/CoCreate-app/CoCreate-shipengine/commit/95adc709c4132c7f12a8e65a3c652e306923036f))
+
 ## [1.4.4](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.4.3...v1.4.4) (2023-04-30)
 
 
