@@ -1,3 +1,10 @@
+## [1.4.6](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.4.5...v1.4.6) (2023-05-01)
+
+
+### Bug Fixes
+
+* update manifest.json to manifest.webmanifest ([2d62f55](https://github.com/CoCreate-app/CoCreate-shipengine/commit/2d62f55187f9c75dab41279f8bf61c13258d6231))
+
 ## [1.4.5](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.4.4...v1.4.5) (2023-05-01)
 
 
