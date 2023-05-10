@@ -1,3 +1,10 @@
+## [1.4.8](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.4.7...v1.4.8) (2023-05-10)
+
+
+### Bug Fixes
+
+* apikey renamed to key ([9d876a6](https://github.com/CoCreate-app/CoCreate-shipengine/commit/9d876a6d5b5525625de89058a270024a2ebdc094))
+
 ## [1.4.7](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.4.6...v1.4.7) (2023-05-06)
 
 
