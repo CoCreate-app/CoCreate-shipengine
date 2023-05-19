@@ -1,3 +1,10 @@
+## [1.4.9](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.4.8...v1.4.9) (2023-05-19)
+
+
+### Bug Fixes
+
+* update packages to latest version. This commit updates various packages in the dependencies section of the package.json file to their latest published versions, thereby fixing multiple bugs and improving overall performance. ([de2302a](https://github.com/CoCreate-app/CoCreate-shipengine/commit/de2302ac852ae5362af458a13df21a4d5e9c3e4f))
+
 ## [1.4.8](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.4.7...v1.4.8) (2023-05-10)
 
 
