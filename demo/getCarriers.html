@@ -1,44 +1,63 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>ShipEngine</title>
-    <style type="text/css">
-      .template {
-        display: none;
-      }
-    </style>
-    <link rel="manifest" href="/manifest.webmanifest">
-  </head>
-  <h1>Get Carriers</h1>
-  <form>
-    <button class="getCarriers" actions="getCarriers">
-      Click Get Carriers
-    </button>
-  </form>
+    <head>
+        <title>ShipEngine</title>
+        <style type="text/css">
+            .template {
+                display: none;
+            }
+        </style>
+        <link rel="manifest" href="/manifest.webmanifest" />
+    </head>
+    <h1>Get Carriers</h1>
+    <form>
+        <button class="getCarriers" actions="getCarriers">
+            Click Get Carriers
+        </button>
+    </form>
 </html>
-<div template_id="getCarriers" >
-  <div class="template card card margin:10px " 
-    value="{{data._id}}" 
-    template_id="getCarriers" 
-    render-array="data">
-        <div class="display:flex justify-content:space-between align-items:center width:100%">
-          <div class="display:flex">
-            <div class="display:flex align-items:center">
-              <span class="icon status font-size:20px margin-right:10px"></span>
+<div template_id="getCarriers">
+    <div
+        class="template card card margin:10px"
+        value="{{data._id}}"
+        template_id="getCarriers"
+        render-array="data">
+        <div
+            class="display:flex justify-content:space-between align-items:center width:100%">
+            <div class="display:flex">
+                <div class="display:flex align-items:center">
+                    <span
+                        class="icon status font-size:20px margin-right:10px"></span>
+                </div>
+                <div class="display:flex align-items:center flex-wrap:wrap">
+                    <h3 class="margin-right:10px" value="{{data.carrier_id}}">
+                        Carrier Id
+                    </h3>
+                    <h3
+                        class="margin-right:10px"
+                        value="{{data.account_number}}">
+                        Account_Number
+                    </h3>
+                    <h3 class="margin-right:10px" value="{{data.balance}}">
+                        Balance
+                    </h3>
+                    <h3 class="margin-right:10px" value="{{data.carrier_code}}">
+                        Carrier_Code
+                    </h3>
+                    <h3
+                        class="margin-right:10px"
+                        value="{{data.friendly_name}}">
+                        Friendly_Name
+                    </h3>
+                    <h3 class="margin-right:10px" value="{{data.nickname}}">
+                        NickName
+                    </h3>
+                </div>
             </div>
-            <div class="display:flex align-items:center  flex-wrap:wrap">
-              <h3 class="margin-right:10px" value="{{data.carrier_id}}">Carrier Id</h3>
-              <h3 class="margin-right:10px" value="{{data.account_number}}">Account_Number</h3>
-              <h3 class="margin-right:10px" value="{{data.balance}}">Balance</h3>
-              <h3 class="margin-right:10px" value="{{data.carrier_code}}">Carrier_Code</h3>
-              <h3 class="margin-right:10px" value="{{data.friendly_name}}">Friendly_Name</h3>
-              <h3 class="margin-right:10px" value="{{data.nickname}}">NickName</h3>
-            </div>
-          </div>
         </div>
-  </div>
+    </div>
 </div>
 
 <!--CoCreateJS-->
-<script src="https://cdn.cocreate.app/latest/CoCreate.min.js" ></script>
+<script src="https://cdn.cocreate.app/latest/CoCreate.min.js"></script>
 <!-- <script src="../dist/CoCreate-shipengine.js"></script> -->

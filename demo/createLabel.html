@@ -1,109 +1,187 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-<head>
-    <title>ShipEngine</title>
+    <head>
+        <title>ShipEngine</title>
 
-    <style type="text/css">
-      .template{display:none}
-      .item{
-          font-weight: bold;
-          margin-top:10px;
-          font-size:20px;
-      }
-      .subitem{
-          font-size:15px;
-          font-weight: bold;
-          margin-top: 5px;
-      }
-      label{
-          display:inline-block;
-          width:120px;
-      }
-      button{
-          margin:10px;
-      }
-      
-    </style>
+        <style type="text/css">
+            .template {
+                display: none;
+            }
+            .item {
+                font-weight: bold;
+                margin-top: 10px;
+                font-size: 20px;
+            }
+            .subitem {
+                font-size: 15px;
+                font-weight: bold;
+                margin-top: 5px;
+            }
+            label {
+                display: inline-block;
+                width: 120px;
+            }
+            button {
+                margin: 10px;
+            }
+        </style>
 
-    <link rel="manifest" href="/manifest.webmanifest">
-</head>
-<body>
-    
-<h1>Create Label</h1>
-<div class="container-div">
-    <form>
-        <div shipengine="createLabel.shipments" shipengine_array="shipments">
-            <label>service_code</label><input shipengine="shipments.service_code" value="ups_ground"></br>
-            <div class='item'>ship_to</div>
-            <div shipengine="shipments.ship_to" shipengine_array="ship_to">
-            	<label>name</label><input shipengine="ship_to.name"  value="John Doe"></br>
-            	<label>phone</label><input shipengine="ship_to.phone"  value="555-555-5555"></br>
-            	<label>address_line1</label><input shipengine="ship_to.address_line1"  value="525 S Winchester Blvd"></br>
-            	<label>city_locality</label><input shipengine="ship_to.city_locality"  value="San Jose"></br>
-            	<label>state_province</label><input shipengine="ship_to.state_province"  value="CA"></br>
-            	<label>postal_code</label><input shipengine="ship_to.postal_code"  value="95128"></br>
-            	<label>country</label><input shipengine="ship_to.country_code"  value="US"></br>
-            	<label>RDI</label><input shipengine="ship_to.address_residential_indicator"  value="yes"></br>
-            </div>
-            
-            <div class='item'>ship_form</div>
-            <div shipengine="shipments.ship_form" shipengine_array="ship_form">
-            	<label>name</label><input shipengine="ship_form.name" value="John Doe"></br>
-            	<label>company_name</label><input shipengine="ship_form.company_name"  value="Corp"></br>
-            	<label>phone</label><input shipengine="ship_form.phone"  value="555-555-5555"></br>
-            	<label>address_line1</label><input shipengine="ship_form.address_line1"  value="4009 Marathon Blvd"></br>
-            	<label>address_line2</label><input shipengine="ship_form.address_line2"  value="Suite 300"></br>
-            	<label>city_locality</label><input shipengine="ship_form.city_locality"  value="Austin"></br>
-            	<label>state_province</label><input shipengine="ship_form.state_province"  value="TX"></br>
-            	<label>postal_code</label><input shipengine="ship_form.postal_code"  value="78756"></br>
-            	<label>country</label><input shipengine="ship_form.country_code"  value="US"></br>
-            	<label>RDI</label><input shipengine="ship_form.address_residential_indicator"  value="no"></br>
-            </div>
-            
-            <div class='item'>packages</div> 
-            <div shipengine="shipments.packages" shipengine_array="packages">
-            	<div shipengine="packages.weight" shipengine_array="weight">
-            	    <label>value</label><input shipengine="weight.value"  value="2"></br>
-            	    <label>unit</label><input shipengine="weight.unit"  value="ounce"></br>
-            	</div>
+        <link rel="manifest" href="/manifest.webmanifest" />
+    </head>
+    <body>
+        <h1>Create Label</h1>
+        <div class="container-div">
+            <form>
+                <div
+                    shipengine="createLabel.shipments"
+                    shipengine_array="shipments">
+                    <label>service_code</label
+                    ><input
+                        shipengine="shipments.service_code"
+                        value="ups_ground" /><br />
+                    <div class="item">ship_to</div>
+                    <div
+                        shipengine="shipments.ship_to"
+                        shipengine_array="ship_to">
+                        <label>name</label
+                        ><input
+                            shipengine="ship_to.name"
+                            value="John Doe" /><br />
+                        <label>phone</label
+                        ><input
+                            shipengine="ship_to.phone"
+                            value="555-555-5555" /><br />
+                        <label>address_line1</label
+                        ><input
+                            shipengine="ship_to.address_line1"
+                            value="525 S Winchester Blvd" /><br />
+                        <label>city_locality</label
+                        ><input
+                            shipengine="ship_to.city_locality"
+                            value="San Jose" /><br />
+                        <label>state_province</label
+                        ><input
+                            shipengine="ship_to.state_province"
+                            value="CA" /><br />
+                        <label>postal_code</label
+                        ><input
+                            shipengine="ship_to.postal_code"
+                            value="95128" /><br />
+                        <label>country</label
+                        ><input
+                            shipengine="ship_to.country_code"
+                            value="US" /><br />
+                        <label>RDI</label
+                        ><input
+                            shipengine="ship_to.address_residential_indicator"
+                            value="yes" /><br />
+                    </div>
+
+                    <div class="item">ship_form</div>
+                    <div
+                        shipengine="shipments.ship_form"
+                        shipengine_array="ship_form">
+                        <label>name</label
+                        ><input
+                            shipengine="ship_form.name"
+                            value="John Doe" /><br />
+                        <label>company_name</label
+                        ><input
+                            shipengine="ship_form.company_name"
+                            value="Corp" /><br />
+                        <label>phone</label
+                        ><input
+                            shipengine="ship_form.phone"
+                            value="555-555-5555" /><br />
+                        <label>address_line1</label
+                        ><input
+                            shipengine="ship_form.address_line1"
+                            value="4009 Marathon Blvd" /><br />
+                        <label>address_line2</label
+                        ><input
+                            shipengine="ship_form.address_line2"
+                            value="Suite 300" /><br />
+                        <label>city_locality</label
+                        ><input
+                            shipengine="ship_form.city_locality"
+                            value="Austin" /><br />
+                        <label>state_province</label
+                        ><input
+                            shipengine="ship_form.state_province"
+                            value="TX" /><br />
+                        <label>postal_code</label
+                        ><input
+                            shipengine="ship_form.postal_code"
+                            value="78756" /><br />
+                        <label>country</label
+                        ><input
+                            shipengine="ship_form.country_code"
+                            value="US" /><br />
+                        <label>RDI</label
+                        ><input
+                            shipengine="ship_form.address_residential_indicator"
+                            value="no" /><br />
+                    </div>
+
+                    <div class="item">packages</div>
+                    <div
+                        shipengine="shipments.packages"
+                        shipengine_array="packages">
+                        <div
+                            shipengine="packages.weight"
+                            shipengine_array="weight">
+                            <label>value</label
+                            ><input shipengine="weight.value" value="2" /><br />
+                            <label>unit</label
+                            ><input
+                                shipengine="weight.unit"
+                                value="ounce" /><br />
+                        </div>
+                    </div>
+                </div>
+
+                <button actions="createLabel">Create Label</button>
+            </form>
+
+            <div template_id="createLabel">
+                <div
+                    class="template card card margin:10px"
+                    value="{{data}}"
+                    template_id="createLabel"
+                    render-array="data">
+                    <label>carrier_code</label
+                    ><input value="{{data.carrier_code}}" /><br />
+                    <label>carrier_id</label
+                    ><input value="{{data.carrier_id}}" /><br />
+                    <label>charge_event</label
+                    ><input value="{{data.charge_event}}" /><br />
+                    <label>display_scheme</label
+                    ><input value="{{data.display_scheme}}" /><br />
+                    <label>label_id</label
+                    ><input value="{{data.label_id}}" /><br />
+                    <label>label_format</label
+                    ><input value="{{data.label_format}}" /><br />
+                    <label>ship_date</label
+                    ><input value="{{data.ship_date}}" /><br />
+                    <label>shipment_id</label
+                    ><input value="{{data.shipment_id}}" /><br />
+                    <label>tracking_number</label
+                    ><input value="{{data.tracking_number}}" /><br />
+                    <label>tracking_status</label
+                    ><input value="{{data.tracking_status}}" /><br />
+                    <label>created_at</label
+                    ><input value="{{data.created_at}}" /><br />
+                    <label>downloadurl</label
+                    ><input value="{{data.label_download.pdf}}" />
+                </div>
             </div>
         </div>
-        
-        <button actions='createLabel'>Create Label</button>
-        
-    </form>
-    
-    <div template_id="createLabel">
-        <div class="template card card margin:10px " 
-            value="{{data}}" 
-            template_id="createLabel"
-            render-array="data">
-        	<label>carrier_code</label><input value="{{data.carrier_code}}"></br>
-        	<label>carrier_id</label><input value="{{data.carrier_id}}"></br>
-        	<label>charge_event</label><input value="{{data.charge_event}}"></br>
-        	<label>display_scheme</label><input value="{{data.display_scheme}}"></br>
-        	<label>label_id</label><input value="{{data.label_id}}"></br>
-        	<label>label_format</label><input value="{{data.label_format}}"></br>
-        	<label>ship_date</label><input  value="{{data.ship_date}}"></br>
-        	<label>shipment_id</label><input  value="{{data.shipment_id}}"></br>
-        	<label>tracking_number</label><input value="{{data.tracking_number}}"></br>
-        	<label>tracking_status</label><input value="{{data.tracking_status}}"></br>
-        	<label>created_at</label><input value="{{data.created_at}}"></br>
-        	<label>downloadurl</label><input value={{data.label_download.pdf}}>
-        </div>
-    </div>
-</div>
 
+        <!--CoCreateJS-->
+        <!--<script src="https://cdn.cocreate.app/latest/CoCreate.min.js"  ></script>-->
 
+        <!--CoCreate Plugins-->
 
-
-<!--CoCreateJS-->
-<!--<script src="https://cdn.cocreate.app/latest/CoCreate.min.js" ></script>-->
-
-<!--CoCreate Plugins-->
-
-<script src="../dist/CoCreate-shipengine.js"></script>
-
-</body>
-
+        <script src="../dist/CoCreate-shipengine.js"></script>
+    </body>
 </html>

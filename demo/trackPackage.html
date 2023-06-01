@@ -1,63 +1,64 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-<head>
-    <title>ShipEngine</title>
+    <head>
+        <title>ShipEngine</title>
 
-    <style type="text/css">
-      .template{display:none}
-      .item{
-          font-weight: bold;
-          margin-top:10px;
-          font-size:20px;
-      }
-      .subitem{
-          font-size:15px;
-          font-weight: bold;
-          margin-top: 5px;
-      }
-      label{
-          display:inline-block;
-          width:120px;
-      }
-      button{
-          margin:10px;
-      }
-      
-    </style>
+        <style type="text/css">
+            .template {
+                display: none;
+            }
+            .item {
+                font-weight: bold;
+                margin-top: 10px;
+                font-size: 20px;
+            }
+            .subitem {
+                font-size: 15px;
+                font-weight: bold;
+                margin-top: 5px;
+            }
+            label {
+                display: inline-block;
+                width: 120px;
+            }
+            button {
+                margin: 10px;
+            }
+        </style>
 
-    <link rel="manifest" href="/manifest.webmanifest">
-</head>
-<body>
-    
-<h1>Track Package</h1>
-<div class="container-div">
-    <form>
-        <label>Label ID</label><input shipengine="trackPackage.labelId" value="se-22334381">
-        <button actions='trackPackage'>Track Package</button>
-    </form>
-   <div template_id="trackPackage">
-        <div class="template card card margin:10px " 
-            value="{{data}}" 
-            template_id="trackPackage"
-            render-array="data">
-        	<label>tracking_number</label><input value="{{data.tracking_number}}"></br>
-        	<label>status_description</label><input value="{{data.status_description}}"></br>
-        	<label>status_code</label><input value="{{data.status_code}}"></br>
-        	<label>carrier_status_description</label><input value="{{data.carrier_status_description}}"></br>
+        <link rel="manifest" href="/manifest.webmanifest" />
+    </head>
+    <body>
+        <h1>Track Package</h1>
+        <div class="container-div">
+            <form>
+                <label>Label ID</label
+                ><input shipengine="trackPackage.labelId" value="se-22334381" />
+                <button actions="trackPackage">Track Package</button>
+            </form>
+            <div template_id="trackPackage">
+                <div
+                    class="template card card margin:10px"
+                    value="{{data}}"
+                    template_id="trackPackage"
+                    render-array="data">
+                    <label>tracking_number</label
+                    ><input value="{{data.tracking_number}}" /><br />
+                    <label>status_description</label
+                    ><input value="{{data.status_description}}" /><br />
+                    <label>status_code</label
+                    ><input value="{{data.status_code}}" /><br />
+                    <label>carrier_status_description</label
+                    ><input value="{{data.carrier_status_description}}" /><br />
+                </div>
+            </div>
         </div>
-    </div>
-</div>
 
+        <!--CoCreateJS-->
+        <!--<script src="https://cdn.cocreate.app/latest/CoCreate.min.js"  ></script>-->
 
+        <!--CoCreate Plugins-->
 
-
-<!--CoCreateJS-->
-<!--<script src="https://cdn.cocreate.app/latest/CoCreate.min.js" ></script>-->
-
-<!--CoCreate Plugins-->
-
-<script src="../dist/CoCreate-shipengine.js"></script>
-
-</body>
-
+        <script src="../dist/CoCreate-shipengine.js"></script>
+    </body>
 </html>
