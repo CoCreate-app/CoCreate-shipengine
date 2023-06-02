@@ -1,3 +1,10 @@
+## [1.4.11](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.4.10...v1.4.11) (2023-06-02)
+
+
+### Bug Fixes
+
+* format demo html ([a861dbb](https://github.com/CoCreate-app/CoCreate-shipengine/commit/a861dbbd97b8a58a4a2a9bb6ba2d8013c756fc6d))
+
 ## [1.4.10](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.4.9...v1.4.10) (2023-05-21)
 
 
