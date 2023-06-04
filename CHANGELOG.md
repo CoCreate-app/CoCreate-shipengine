@@ -1,3 +1,10 @@
+## [1.4.12](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.4.11...v1.4.12) (2023-06-04)
+
+
+### Bug Fixes
+
+* **semantic-release:** worklow error solved by running node version 14 ([fa8e8e5](https://github.com/CoCreate-app/CoCreate-shipengine/commit/fa8e8e579ff327c0e0a4030c8d9ce739f8a60465))
+
 ## [1.4.11](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.4.10...v1.4.11) (2023-06-02)
 
 
