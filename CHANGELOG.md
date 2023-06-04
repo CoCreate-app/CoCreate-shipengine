@@ -1,3 +1,10 @@
+## [1.4.14](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.4.13...v1.4.14) (2023-06-04)
+
+
+### Bug Fixes
+
+* Refactor CoCreate.config.js to remove hard-coded credentials ([08ababa](https://github.com/CoCreate-app/CoCreate-shipengine/commit/08ababa35f6e5dec93d7efb0bb1d6726d74211d4))
+
 ## [1.4.13](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.4.12...v1.4.13) (2023-06-04)
 
 
