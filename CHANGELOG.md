@@ -1,3 +1,11 @@
+## [1.4.13](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.4.12...v1.4.13) (2023-06-04)
+
+
+### Bug Fixes
+
+* replaced secert GITHUB_TOKEN with GITHUB ([2f56cab](https://github.com/CoCreate-app/CoCreate-shipengine/commit/2f56cab276005ed8a5ce3021e7443c7757ceba69))
+* Update dependencies versions for [@cocreate](https://github.com/cocreate) libraries ([47f6a0a](https://github.com/CoCreate-app/CoCreate-shipengine/commit/47f6a0a77c19d6db76c3ba733553f3ecb55fb5d4))
+
 ## [1.4.12](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.4.11...v1.4.12) (2023-06-04)
 
 
