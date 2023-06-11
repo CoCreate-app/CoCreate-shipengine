@@ -1,3 +1,10 @@
+## [1.4.17](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.4.16...v1.4.17) (2023-06-11)
+
+
+### Bug Fixes
+
+* renamed hosts to host. the value can be a string or an array of strings ([8d98a44](https://github.com/CoCreate-app/CoCreate-shipengine/commit/8d98a44cd08ecf24b4feb730480a920f60d42e67))
+
 ## [1.4.16](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.4.15...v1.4.16) (2023-06-10)
 
 
