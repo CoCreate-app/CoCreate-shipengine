@@ -1,3 +1,10 @@
+## [1.4.26](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.4.25...v1.4.26) (2023-06-11)
+
+
+### Bug Fixes
+
+* Update dependencies versions for [@cocreate](https://github.com/cocreate) libraries ([1050665](https://github.com/CoCreate-app/CoCreate-shipengine/commit/1050665252b9da47189d723acdb778a5a983cc32))
+
 ## [1.4.25](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.4.24...v1.4.25) (2023-06-11)
 
 
