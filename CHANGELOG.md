@@ -1,3 +1,10 @@
+## [1.4.25](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.4.24...v1.4.25) (2023-06-11)
+
+
+### Bug Fixes
+
+* testing workflow ([10a6712](https://github.com/CoCreate-app/CoCreate-shipengine/commit/10a6712abc09d5e9daf2258c54b1f8369579267e))
+
 ## [1.4.24](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.4.23...v1.4.24) (2023-06-11)
 
 
