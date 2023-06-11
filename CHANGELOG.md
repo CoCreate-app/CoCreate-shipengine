@@ -1,3 +1,10 @@
+## [1.4.20](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.4.19...v1.4.20) (2023-06-11)
+
+
+### Bug Fixes
+
+* postintall error ([100c188](https://github.com/CoCreate-app/CoCreate-shipengine/commit/100c188b44f6509fb5ad1302e503e0632d13f5cd))
+
 ## [1.4.19](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.4.18...v1.4.19) (2023-06-11)
 
 
