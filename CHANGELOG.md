@@ -1,3 +1,10 @@
+## [1.4.19](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.4.18...v1.4.19) (2023-06-11)
+
+
+### Bug Fixes
+
+* @cocreate/cli moved to dependencies ([9db8adf](https://github.com/CoCreate-app/CoCreate-shipengine/commit/9db8adf7d49ae2cbe73c53c12112b51551c90369))
+
 ## [1.4.18](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.4.17...v1.4.18) (2023-06-11)
 
 
