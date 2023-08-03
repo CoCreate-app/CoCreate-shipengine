@@ -21,21 +21,21 @@ class CoCreateShipengine {
     async sendDataShipEngine(socket, data) {
         let action = data['action'];
         const params = data['data'];
-       
-        try{
+
+        try {
             let org = await api.getOrg(data, this.name);
-            if (params.environment){
-              environment = params['environment'];
-              delete params['environment'];  
+            if (params.environment) {
+                environment = params['environment'];
+                delete params['environment'];
             } else {
-              environment = org.apis[this.name].environment;
+                environment = org.apis[this.name].environment;
             }
-            this.API_KEY =  org.apis[this.name][environment].API_KEY;
-        }catch(e){
-            console.log(this.name+" : Error Connect to api",e)
+            this.API_KEY = org.apis[this.name][environment].API_KEY;
+        } catch (e) {
+            console.log(this.name + " : Error Connect to api", e)
             return false;
         }
-        
+
         try {
             let response
             switch (action) {
@@ -55,10 +55,10 @@ class CoCreateShipengine {
                     await this.trackPackage(params);
                     break;
             }
-            this.wsManager.send(socket, this.name, { action, response })
+            this.wsManager.send(socket, { method: this.name, action, response })
 
         } catch (error) {
-        this.handleError(socket, action, error)
+            this.handleError(socket, action, error)
         }
     }
 
@@ -67,8 +67,8 @@ class CoCreateShipengine {
             'object': 'error',
             'data': error || error.response || error.response.data || error.response.body || error.message || error,
         };
-        this.wsManager.send(socket, this.name, { action, response })
-    }	
+        this.wsManager.send(socket, { method: this.name, action, response })
+    }
 
     async getCarriers() {
         const options = {
@@ -79,7 +79,7 @@ class CoCreateShipengine {
                 'API-Key': this.API_KEY
             }
         };
-        
+
         const resData = await this.invoke(options);
 
         const response = {
@@ -116,7 +116,7 @@ class CoCreateShipengine {
                 }
             ]
         };
-        
+
         const options = {
             'method': 'POST',
             'url': 'https://api.shipengine.com/v1/shipments',
@@ -147,7 +147,7 @@ class CoCreateShipengine {
 
             }
         };
-        
+
         const options = {
             'method': 'POST',
             'url': 'https://api.shipengine.com/v1/rates',

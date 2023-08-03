@@ -4,8 +4,8 @@ module.exports = {
     "host": "",
     "sources": [
         {
-            "collection": "files",
-            "document": {
+            "array": "files",
+            "object": {
                 "_id": "6029a4fee979fb17407e25d1",
                 "name": "index.html",
                 "path": "/docs/shipengine/index.html",
