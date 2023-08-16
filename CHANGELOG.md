@@ -1,3 +1,18 @@
+# [1.5.0](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.4.28...v1.5.0) (2023-08-16)
+
+
+### Bug Fixes
+
+* crud attributes renamed ([5c130fd](https://github.com/CoCreate-app/CoCreate-shipengine/commit/5c130fd61fcebc5aa70d47afd7969b2826a53358))
+* render-array and render-object attributes renamed to render ([a5fa48e](https://github.com/CoCreate-app/CoCreate-shipengine/commit/a5fa48ec03c76eed03477a807d0fdb145608564a))
+* replace -target -selector ([9d6f507](https://github.com/CoCreate-app/CoCreate-shipengine/commit/9d6f507dc12b4f41f407c5ec1481669cdb94ebf2))
+* webpack.config and package.json make use of mode=production instead of process.env ([2ee6602](https://github.com/CoCreate-app/CoCreate-shipengine/commit/2ee6602ca165d14a5b8c0e05e9b89be0e50c1a1b))
+
+
+### Features
+
+* name attribute and variable renamed to key ([c288382](https://github.com/CoCreate-app/CoCreate-shipengine/commit/c28838233a7029055f63fa0db8f496ae60019aef))
+
 ## [1.4.28](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.4.27...v1.4.28) (2023-06-14)
 
 
