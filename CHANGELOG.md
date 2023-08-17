@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.5.0...v1.6.0) (2023-08-17)
+
+
+### Features
+
+* bump cocreate dependencies for the latest updates and features ([8aea74f](https://github.com/CoCreate-app/CoCreate-shipengine/commit/8aea74f76f0093d85874ddf5a8fa3b859156c8e7))
+
 # [1.5.0](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.4.28...v1.5.0) (2023-08-16)
 
 
