@@ -1,3 +1,12 @@
+## [1.6.1](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.6.0...v1.6.1) (2023-08-21)
+
+
+### Bug Fixes
+
+* /dist/CoCreate.js updated to https://CoCreate.app/dist/CoCreate.js ([dcc7899](https://github.com/CoCreate-app/CoCreate-shipengine/commit/dcc78992644f487a1c71faad144694b50d045793))
+* replace cdn with /dist ([63e2990](https://github.com/CoCreate-app/CoCreate-shipengine/commit/63e29908cd438cfdbc2a2b90a3ccd746eab77274))
+* update file uploader ([6f07f15](https://github.com/CoCreate-app/CoCreate-shipengine/commit/6f07f15df09068bf038dd6b7024c880e5d69a605))
+
 # [1.6.0](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.5.0...v1.6.0) (2023-08-17)
 
 
