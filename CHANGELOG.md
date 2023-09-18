@@ -1,3 +1,11 @@
+## [1.7.2](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.7.1...v1.7.2) (2023-09-18)
+
+
+### Bug Fixes
+
+*  Add path and pathname ([f9e7297](https://github.com/CoCreate-app/CoCreate-shipengine/commit/f9e7297c92c35408ee53287a56cad0e0c7258af6))
+* Update CoCreate depndencies to latest versions ([f56d910](https://github.com/CoCreate-app/CoCreate-shipengine/commit/f56d910c4b446eda6d00eab756eb14b441a3d3c5))
+
 ## [1.7.1](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.7.0...v1.7.1) (2023-08-21)
 
 
