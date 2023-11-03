@@ -1,3 +1,10 @@
+## [1.8.5](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.8.4...v1.8.5) (2023-11-03)
+
+
+### Bug Fixes
+
+* update dependencies to the lates versions ([7a25077](https://github.com/CoCreate-app/CoCreate-shipengine/commit/7a250773f797be5935f40f9811eb595fd1f03430))
+
 ## [1.8.4](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.8.3...v1.8.4) (2023-10-25)
 
 
