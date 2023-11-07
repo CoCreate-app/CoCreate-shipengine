@@ -12,8 +12,7 @@ module.exports = {
                 "pathname": "/docs/shipengine/index.html",
                 "src": "{{./docs/index.html}}",
                 "host": [
-                    "*",
-                    "general.cocreate.app"
+                    "*"
                 ],
                 "directory": "shipengine",
                 "content-type": "{{content-type}}",
