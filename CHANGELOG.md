@@ -1,3 +1,11 @@
+## [1.8.6](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.8.5...v1.8.6) (2023-11-09)
+
+
+### Bug Fixes
+
+* meta name typo ([8fbb967](https://github.com/CoCreate-app/CoCreate-shipengine/commit/8fbb9675bd5aa819321d80a616e76f6f276d7609))
+* update host ([f9643ce](https://github.com/CoCreate-app/CoCreate-shipengine/commit/f9643cec7ff0799e067be4534ff8c3ea22d555b7))
+
 ## [1.8.5](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.8.4...v1.8.5) (2023-11-03)
 
 
