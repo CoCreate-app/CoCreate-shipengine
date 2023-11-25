@@ -1,3 +1,15 @@
+# [1.10.0](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.9.0...v1.10.0) (2023-11-25)
+
+
+### Bug Fixes
+
+* update nav, edit button and css path ([bd0e4fc](https://github.com/CoCreate-app/CoCreate-shipengine/commit/bd0e4fcc4d518cb6747bda8f8fb761e1196c51e4))
+
+
+### Features
+
+* upgrade dependencies for latest features and fixes ([86ac32a](https://github.com/CoCreate-app/CoCreate-shipengine/commit/86ac32a6310a58de2f51de0d571c79ceb67613fb))
+
 # [1.9.0](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.8.7...v1.9.0) (2023-11-19)
 
 
