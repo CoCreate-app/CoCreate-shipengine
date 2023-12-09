@@ -1,3 +1,10 @@
+## [1.11.1](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.11.0...v1.11.1) (2023-12-09)
+
+
+### Bug Fixes
+
+* getOrg() renamed to getOrganization() ([2b62167](https://github.com/CoCreate-app/CoCreate-shipengine/commit/2b6216773461ba005bcf6f839055b363e5e7a4a8))
+
 # [1.11.0](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.10.0...v1.11.0) (2023-11-25)
 
 
