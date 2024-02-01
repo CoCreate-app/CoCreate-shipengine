@@ -1,5 +1,4 @@
 'use strict'
-const api = require('@cocreate/api');
 const request = require('request');
 
 class CoCreateShipengine {
@@ -23,7 +22,7 @@ class CoCreateShipengine {
         const params = data['data'];
 
         try {
-            let org = await api.getOrganization(data, this.name);
+            let org = await this.crud.getOrganization(data, this.name);
             if (params.environment) {
                 environment = params['environment'];
                 delete params['environment'];
