@@ -1,3 +1,10 @@
+## [1.11.2](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.11.1...v1.11.2) (2024-02-03)
+
+
+### Bug Fixes
+
+*  removed from clinet.js ([94ec969](https://github.com/CoCreate-app/CoCreate-shipengine/commit/94ec9695653f4167784445361e7697d106770228))
+
 ## [1.11.1](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.11.0...v1.11.1) (2023-12-09)
 
 
