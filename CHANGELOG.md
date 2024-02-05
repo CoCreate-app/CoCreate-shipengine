@@ -1,3 +1,10 @@
+## [1.11.3](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.11.2...v1.11.3) (2024-02-05)
+
+
+### Bug Fixes
+
+* Removed https://cdn.cocreate.app/latest/CoCreate.min.css ([007e2a6](https://github.com/CoCreate-app/CoCreate-shipengine/commit/007e2a673f46594ad0bda1c30464840c4b1a5a19))
+
 ## [1.11.2](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.11.1...v1.11.2) (2024-02-03)
 
 
