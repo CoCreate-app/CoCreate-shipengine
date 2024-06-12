@@ -1,3 +1,11 @@
+## [1.11.5](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.11.4...v1.11.5) (2024-06-12)
+
+
+### Bug Fixes
+
+* bump cocreate dependencies ([4f888b3](https://github.com/CoCreate-app/CoCreate-shipengine/commit/4f888b3fc0df4579819a1a97bd04a70468954a68))
+* svg icon class ([50d99ac](https://github.com/CoCreate-app/CoCreate-shipengine/commit/50d99ac153036a47a21e17eb5bea72f4e77c9a40))
+
 ## [1.11.4](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.11.3...v1.11.4) (2024-04-29)
 
 
