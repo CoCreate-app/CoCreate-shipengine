@@ -1,3 +1,16 @@
+# [1.12.0](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.11.5...v1.12.0) (2024-11-04)
+
+
+### Bug Fixes
+
+* pretier.config.js and file formating ([e8e06f7](https://github.com/CoCreate-app/CoCreate-shipengine/commit/e8e06f74fcae40d68a7c60cbec67998be45ccb44))
+
+
+### Features
+
+* add prettier.config.js and format files ([08678f5](https://github.com/CoCreate-app/CoCreate-shipengine/commit/08678f5a79b222a9bf7d9ed782046e4b8056d49b))
+* add prettier.config.js and format files ([96f406a](https://github.com/CoCreate-app/CoCreate-shipengine/commit/96f406a044d3b64e12087358ef522920e2309255))
+
 ## [1.11.5](https://github.com/CoCreate-app/CoCreate-shipengine/compare/v1.11.4...v1.11.5) (2024-06-12)
 
 
